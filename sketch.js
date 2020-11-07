@@ -61,4 +61,7 @@ function draw(){
 
     bird.display();
     platform.display();
+
+     fill("blue");
+    text(mouseX + "," + mouseY,mouseX,mouseY);
 }
